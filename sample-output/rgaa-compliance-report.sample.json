@@ -1,0 +1,28 @@
+{
+  "summary": {
+    "url": "https://dequeuniversity.com/demo/dream",
+    "scan_date": "2026-04-21T12:45:00.000Z",
+    "compliance_score": 78,
+    "status": "PARTIALLY_COMPLIANT",
+    "risk": "MEDIUM"
+  },
+  "violations": [
+    {
+      "rgaa_id": "1.1",
+      "wcag": "1.1.1",
+      "severity": "HIGH",
+      "element": "<img>",
+      "issue": "Missing alt text",
+      "automation_type": "FULL",
+      "ai_score": 0.2,
+      "recommendation": "Add meaningful alt text"
+    }
+  ],
+  "coverage": {
+    "total_rules": 106,
+    "automated": 42,
+    "semi_automated": 38,
+    "manual": 26,
+    "mapped_rules": 22
+  }
+}

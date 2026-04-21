@@ -1,0 +1,346 @@
+{
+  "summary": {
+    "url": "https://dequeuniversity.com/demo/dream",
+    "scan_date": "2026-04-21T14:44:34.867Z",
+    "compliance_score": 70,
+    "status": "PARTIALLY_COMPLIANT",
+    "risk": "MEDIUM"
+  },
+  "violations": [
+    {
+      "rgaa_id": "3.1",
+      "wcag": "1.4.1",
+      "severity": "HIGH",
+      "element": "<button name=\"button\" type=\"button\" class=\"button-tertiary\">Accept</button>",
+      "selector": ".cookie-consent-banner-action > button[name=\"button\"][type=\"button\"]",
+      "issue": "Elements must meet minimum color contrast ratio thresholds",
+      "automation_type": "MANUAL",
+      "axe_rule": "color-contrast",
+      "recommendation": "Review remediation guidance: https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverio"
+    },
+    {
+      "rgaa_id": "3.2",
+      "wcag": "1.4.3",
+      "severity": "HIGH",
+      "element": "<button name=\"button\" type=\"button\" class=\"button-tertiary\">Accept</button>",
+      "selector": ".cookie-consent-banner-action > button[name=\"button\"][type=\"button\"]",
+      "issue": "Elements must meet minimum color contrast ratio thresholds",
+      "automation_type": "FULL",
+      "axe_rule": "color-contrast",
+      "recommendation": "Review remediation guidance: https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverio"
+    },
+    {
+      "rgaa_id": "9.1",
+      "wcag": "1.3.1",
+      "severity": "MEDIUM",
+      "element": "<h3>Spectacular Mountain Vistas</h3>",
+      "selector": ".card-wrap:nth-child(1) > .blog.card > .content > h3",
+      "issue": "Heading levels should only increase by one",
+      "automation_type": "SEMI",
+      "axe_rule": "heading-order",
+      "recommendation": "Review remediation guidance: https://dequeuniversity.com/rules/axe/4.11/heading-order?application=webdriverio"
+    },
+    {
+      "rgaa_id": "1.3",
+      "wcag": "1.1.1",
+      "severity": "HIGH",
+      "element": "<img>",
+      "issue": "Image alternative text may not be meaningful.",
+      "automation_type": "SEMI",
+      "ai_score": 0.5,
+      "recommendation": "The alt text 'Dream Destination logo' is present but lacks context about the image's purpose or content. It does not describe the visual elements or function of the logo, which is essential for users relying on screen readers to understand the image's significance in the navigation context."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">production\n- market: US</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and contains non-link text ('production\\n- market: US')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">89% based on 52,371 reviews</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0,
+      "recommendation": "Link text is not descriptive and appears to be a rating or review summary, not a link."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Spectacular Mountain Vistas\n\nFollow our guides up the mountainside to some of the most spectacular views on the planet. You just can't get these types of views any other way. The way is rugged, and the people match it in character.</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and contains non-link text ('Spectacular Mountain Vistas\\n\\nFollow our guides...')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Deserts that will leave you thirsting for more\n\nSlither through the sands of time and roll in the rifts of destiny in the deserts of divine dunes.</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and contains non-link text ('Deserts that will leave you thirsting for more\\n\\nSlither through the sands...')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Out in nature, with all the comforts of home\n\nSee every tree, every cloud, every blade of grass, every rabbit, every bumblebee, and every dream you've ever had come true with a wraparound view of the natural world from within this modern architectural masterpiece.</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and contains non-link text ('Out in nature, with all the comforts of home\\n\\nSee every tree...')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Lose yourself beneath a lush jungle canopy\n\nIt's a jungle out there, and it's one of the most exhilarating experiences you can ever have. Be one with the monkeys and tree snakes. Eat beetles.</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and contains non-link text ('Lose yourself beneath a lush jungle canopy\\n\\nIt's a jungle out there...')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Halfway to crazy</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Halfway to crazy')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Romantic evening with lover</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Romantic evening with lover')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Home to see your parents</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Home to see your parents')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Transatlantic magic show</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Transatlantic magic show')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Sled ride into the gulley</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Sled ride into the gulley')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Roller skate park</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Roller skate park')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Best friend's house</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Best friend's house')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Ex's mother's kitchen</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Ex's mother's kitchen')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Traffic circle</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Traffic circle')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Slippery slope</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Slippery slope')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Hopscotch to heaven</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Hopscotch to heaven')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Stairway to heaven</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Stairway to heaven')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Slip and slide to hell</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Slip and slide to hell')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Greased pole to eternity</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Greased pole to eternity')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Woven grass carpet</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Woven grass carpet')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Glass bed with suction cups</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Glass bed with suction cups')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Sand dunes of destiny</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Sand dunes of destiny')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Rocky perch to gloat from</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Rocky perch to gloat from')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Underwater wonderland</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Underwater wonderland')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Cashmere hallway with wind chimes</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Cashmere hallway with wind chimes')."
+    },
+    {
+      "rgaa_id": "6.1",
+      "wcag": "2.4.4",
+      "severity": "HIGH",
+      "element": "<a href=\"https://dequeuniversity.com/demo/dream#\">Accordion gauntlet</a>",
+      "issue": "Link purpose may not be clear.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Link text is not descriptive and appears to be a phrase or idiom ('Accordion gauntlet')."
+    },
+    {
+      "rgaa_id": "11.2",
+      "wcag": "1.3.1,4.1.2",
+      "severity": "HIGH",
+      "element": "<form>",
+      "issue": "One or more form labels may not be relevant.",
+      "automation_type": "SEMI",
+      "ai_score": 0.1,
+      "recommendation": "Most form fields lack proper labels or have empty labels, making them inaccessible to screen reader users. Only a few fields ('From station', 'To station', 'One-way', 'Return', 'Via station', 'Day(s)', 'Hour(s)', 'Minute(s)', 'Avoid London') have meaningful labels. The country/locale/currency dropdowns have no labels at all, and many hidden fields (authenticity_token, utf8, q) are unlabeled. This violates WCAG 2.1 Success Criterion 1.3.1 (Info and Relationships) and 4.1.2 (Name, Role, Value)."
+    }
+  ],
+  "coverage": {
+    "total_rules": 106,
+    "automated": 42,
+    "semi_automated": 38,
+    "manual": 26,
+    "mapped_rules": 22,
+    "sample_mapping_breakdown": {
+      "automated": 9,
+      "semi_automated": 9,
+      "manual": 4
+    }
+  }
+}
