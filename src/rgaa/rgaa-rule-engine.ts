@@ -24,15 +24,15 @@ export class RgaaRuleEngine {
     return rules.filter((rule) => tags.includes(rule.rgaa_id) || tags.includes(rule.theme));
   }
 
-  coverage(totalRules = 106) {
+  coverage(totalRules = rules.length) {
     const count = (automationType: AutomationType) =>
       rules.filter((rule) => rule.automation_type === automationType).length;
 
     return {
       total_rules: totalRules,
-      automated: 42,
-      semi_automated: 38,
-      manual: 26,
+      automated: count('FULL'),
+      semi_automated: count('SEMI'),
+      manual: count('MANUAL'),
       mapped_rules: rules.length,
       sample_mapping_breakdown: {
         automated: count('FULL'),

@@ -34,6 +34,15 @@ export interface ComplianceViolation {
   recommendation: string;
 }
 
+export interface PageResult {
+  url: string;
+  scan_date: string;
+  violations: ComplianceViolation[];
+  compliance_score: number;
+  status: ComplianceStatus;
+  risk: 'HIGH' | 'MEDIUM' | 'LOW';
+}
+
 export interface ComplianceReport {
   summary: {
     url: string;
@@ -42,6 +51,7 @@ export interface ComplianceReport {
     status: ComplianceStatus;
     risk: 'HIGH' | 'MEDIUM' | 'LOW';
   };
+  pages: PageResult[];
   violations: ComplianceViolation[];
   coverage: {
     total_rules: number;
@@ -49,5 +59,7 @@ export interface ComplianceReport {
     semi_automated: number;
     manual: number;
     mapped_rules: number;
+    sample_mapping_breakdown?: { automated: number; semi_automated: number; manual: number };
   };
+  overrides?: Record<string, string>;
 }

@@ -36,15 +36,13 @@ export function statusFromScore(score: number): ComplianceStatus {
 
 export function buildComplianceReport(url: string, violations: ComplianceViolation[]): ComplianceReport {
   const complianceScore = computeComplianceScore(violations);
+  const scan_date = new Date().toISOString();
+  const status = statusFromScore(complianceScore);
+  const risk = categorizeRisk(complianceScore, violations);
 
   return {
-    summary: {
-      url,
-      scan_date: new Date().toISOString(),
-      compliance_score: complianceScore,
-      status: statusFromScore(complianceScore),
-      risk: categorizeRisk(complianceScore, violations)
-    },
+    summary: { url, scan_date, compliance_score: complianceScore, status, risk },
+    pages: [{ url, scan_date, violations, compliance_score: complianceScore, status, risk }],
     violations,
     coverage: rgaaRuleEngine.coverage()
   };
